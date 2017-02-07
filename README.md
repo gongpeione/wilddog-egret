@@ -42,7 +42,7 @@ wilddog.initializeApp({
     syncURL: "https://<appid>.wilddogio.com",
     authDomain:"<appid>.wilddog.com"
 })
-wilddoog.sync().ref().on('child_added',function(snapshot){
+wilddog.sync().ref().on('child_added',function(snapshot){
     console.log(snapshot.val())
 })
 
